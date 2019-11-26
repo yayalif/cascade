@@ -34,7 +34,7 @@ export default {
   data () {
     return  {
       casadeList: [],
-      // 原始列表， 根据 name 组装树形结构
+      // 原始列表， 根据 name 组装树形结构·
       list: [
         {
           name: 'aa/bb',

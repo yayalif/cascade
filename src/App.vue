@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <cascade v-for="(item, index) in list" :key="index" :data="item" :index="index"></cascade>
+    <!-- <cascade v-for="(item, index) in list" :key="index" :data="item" :index="index"></cascade> -->
+    <!-- 测试 transiton 的 用法 -->
+    <test-transiton/>
   </div>
 </template>
 
 <script>
-import cascade from './components/cascade.vue'
-
+// import cascade from './components/cascade.vue'
+import testTransiton from './components/testTransiton.vue'
 export default {
   name: 'app',
   components: {
-    cascade
+    // cascade,
+    testTransiton
   },
   data () {
     return {
